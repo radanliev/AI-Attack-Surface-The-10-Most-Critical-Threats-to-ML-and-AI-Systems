@@ -1,0 +1,8 @@
+def classifier(x):
+    return "SAFE" if sum(x) < 10 else "MALICIOUS"
+
+sample = [2, 2, 2, 2]  # SAFE
+perturbed = [2, 2, 2, 5]  # tiny change
+
+print(classifier(sample))
+print(classifier(perturbed))
