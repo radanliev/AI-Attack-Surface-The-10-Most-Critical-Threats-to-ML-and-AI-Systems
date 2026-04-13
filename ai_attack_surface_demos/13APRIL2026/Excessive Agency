@@ -1,0 +1,5 @@
+def agent(action):
+    if action == "send_money":
+        print("Money sent!")
+
+agent("send_money")
