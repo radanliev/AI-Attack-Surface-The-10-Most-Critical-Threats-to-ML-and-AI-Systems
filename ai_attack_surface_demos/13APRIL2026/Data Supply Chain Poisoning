@@ -1,0 +1,5 @@
+dataset = ["good", "good", "bad", "good"]
+dataset.append("bad")  # injected poison
+
+model_bias = dataset.count("bad") / len(dataset)
+print("Model bias:", model_bias)
