@@ -1,0 +1,11 @@
+def blackbox(x):
+    return x * 2 + 1
+
+# attacker queries model
+data = [(i, blackbox(i)) for i in range(10)]
+
+# approximate model
+def stolen_model(x):
+    return 2 * x + 1
+
+print(stolen_model(5))
