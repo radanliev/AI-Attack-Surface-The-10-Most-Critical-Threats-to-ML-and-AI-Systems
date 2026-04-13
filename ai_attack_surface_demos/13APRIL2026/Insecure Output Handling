@@ -1,0 +1,6 @@
+import os
+
+model_output = "rm -rf /"  # simulated malicious output
+
+# unsafe execution
+print("Executing:", model_output)
