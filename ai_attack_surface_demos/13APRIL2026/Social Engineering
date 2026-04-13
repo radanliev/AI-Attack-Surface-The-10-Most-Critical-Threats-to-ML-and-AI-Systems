@@ -1,0 +1,4 @@
+def generate_email(name):
+    return f"Hi {name}, urgent action required. Click here."
+
+print(generate_email("CEO"))
