@@ -1,0 +1,1 @@
+Run the demo end-to-end in this folder. Use the Python file `agentic_ai_course_demo.py` exactly as provided, execute it, and verify that it completes successfully. If the script fails, fix only the minimum necessary issue, then rerun it until it produces the transcript and JSON trace files. Do not replace the demo with a different topic.
