@@ -1,0 +1,17 @@
+# Agentic AI Security Demo
+
+This folder contains a single self-contained Python demo for a course recording.
+
+Files:
+- `agentic_ai_course_demo.py` — the demo
+- `cursor_agent_prompt.md` — a prompt you can paste into Cursor agent mode
+
+Run:
+```bash
+python agentic_ai_course_demo.py
+```
+
+Optional output directory:
+```bash
+python agentic_ai_course_demo.py --output-dir demo_artifacts
+```
